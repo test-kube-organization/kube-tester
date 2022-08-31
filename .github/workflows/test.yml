@@ -10,7 +10,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  build1:
     # The type of runner that the job will run on
     runs-on: self-hosted
 
@@ -27,9 +27,7 @@ jobs:
       - name: Hello from Docker
         run: docker run hello-world
 
-jobs:
-  # This workflow contains a single job called "build"
-  build:
+  build2:
     # The type of runner that the job will run on
     runs-on: self-hosted
 
@@ -46,9 +44,7 @@ jobs:
       - name: Hello from Docker
         run: docker run hello-world
 
-jobs:
-  # This workflow contains a single job called "build"
-  build:
+  build3:
     # The type of runner that the job will run on
     runs-on: self-hosted
 
@@ -65,9 +61,7 @@ jobs:
       - name: Hello from Docker
         run: docker run hello-world
 
-jobs:
-  # This workflow contains a single job called "build"
-  build:
+  build4:
     # The type of runner that the job will run on
     runs-on: self-hosted
 
@@ -84,9 +78,7 @@ jobs:
       - name: Hello from Docker
         run: docker run hello-world
 
-jobs:
-  # This workflow contains a single job called "build"
-  build:
+  build5:
     # The type of runner that the job will run on
     runs-on: self-hosted
 
@@ -103,9 +95,7 @@ jobs:
       - name: Hello from Docker
         run: docker run hello-world
 
-jobs:
-  # This workflow contains a single job called "build"
-  build:
+  build6:
     # The type of runner that the job will run on
     runs-on: self-hosted
 
